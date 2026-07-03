@@ -4,7 +4,8 @@
 first one free.
 
 This folder is the complete, launch-ready business. Everything is finished copy
-and process, not outlines. Start with `EXECUTE.md`.
+and process, not outlines. New here? Read `START_HERE.md` (plain-English guide
+to the whole machine), then run `EXECUTE.md` day by day.
 
 ---
 
@@ -40,7 +41,9 @@ $1,500/mo (20 ads, 2 revision rounds, monthly performance review).
 
 ```
 adstudio/
+├── START_HERE.md                       ← plain-English guide: what this is, how to run + scale it
 ├── index.html, styles.css, script.js   ← landing page (static, deploy anywhere)
+├── assets/og.png                       ← social preview image (portfolio videos go in assets/portfolio/)
 ├── EXECUTE.md                          ← week-one plan, hour by hour + scoreboard
 ├── prospecting/
 │   ├── PLAYBOOK.md                     ← 25 qualified prospects/day in ~90 min
