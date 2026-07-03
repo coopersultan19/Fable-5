@@ -67,8 +67,10 @@ handing them a gift. That's why it works.
    `REPLACE_SPRINT_LINK` and `REPLACE_RETAINER_LINK`.
 3. Make a free **Formspree** form (formspree.io), paste its ID over
    `YOUR_FORM_ID` in `index.html`. Now the site's form emails you every lead.
-4. **Deploy**: drag the `adstudio` folder into netlify.com/drop (or import the
-   repo on Vercel). Connect your domain. Site's live.
+4. **Deploy**: one click — repo Settings → Pages → Source: "GitHub Actions"
+   (the deploy workflow is already in the repo; after the toggle every push
+   goes live automatically). Connect your domain in the same settings page.
+   Netlify/Vercel work too if you prefer.
 5. In Claude chat (with Higgsfield connected), generate **6 portfolio ads** —
    one per niche — and drop them into the portfolio slots in `index.html`
    (there's a comment showing the exact video tag).
@@ -82,7 +84,8 @@ Morning to early afternoon, ~4 focused hours:
 1. **Source 25** new brands from Meta Ads Library → log in pipeline.csv (90 min)
 2. **Make sample ads** for the best ones in Higgsfield (~15–20 min each)
 3. **Send 25** first messages + every follow-up that's due today (the sheet
-   tells you which)
+   tells you which). Email templates are pre-loaded as drafts in your Gmail
+   (search `[TEMPLATE` in Drafts) — copy, personalize the brackets, send.
 4. **Answer every reply within an hour.** Speed of reply closes more deals
    than any script.
 5. Someone pays → **drop into delivery mode** (SOP.md owns your next 48h)

@@ -79,7 +79,11 @@ Then connect your domain in the host's dashboard.
    `REPLACE_RETAINER_LINK` in `index.html`.
 3. **Set up Formspree** — create a form at formspree.io (free tier is fine),
    replace `YOUR_FORM_ID` in `index.html`, and send yourself a test submission.
-4. **Deploy the site** to Vercel/Netlify/GitHub Pages and point the domain at it.
+4. **Enable GitHub Pages (one click)** — repo Settings → Pages → Source:
+   "GitHub Actions". A deploy workflow is already committed
+   (`.github/workflows/deploy-pages.yml`); after the toggle, every push
+   auto-deploys the site. Then point your domain at it (Settings → Pages →
+   Custom domain). Vercel/Netlify still work as alternatives.
 5. **Generate the 6 portfolio ads** in Claude chat via Higgsfield Marketing
    Studio (one per sub-niche slot), compliance-check each against
    `delivery/compliance-checklist.md`, and drop them into the `/portfolio`
